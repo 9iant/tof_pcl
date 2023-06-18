@@ -10,23 +10,23 @@ class PointCloudProcessor : public rclcpp::Node
 public:
     PointCloudProcessor() : Node("pointcloud_processor_node")
     {
-        this->declare_parameter<std::string>("input_topic", "/point_cloud");
-        this->declare_parameter<std::string>("output_topic", "/output_point_cloud");
+        this->declare_parameter<std::string>("input_topic", "/point_cloud2");
+        this->declare_parameter<std::string>("output_topic", "/out_point_cloud");
 
         this->get_parameter("input_topic", input_topic_);
         this->get_parameter("output_topic", output_topic_);
 
         // Subscribe to input pointcloud
-        subscription_ = this->create_subscription<sensor_msgs::msg::PointCloud>(
+        subscription_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
             input_topic_, 10,
             std::bind(&PointCloudProcessor::pointcloud_callback, this, std::placeholders::_1));
 
         // Publisher for output pointcloud
-        publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud>(output_topic_, 10);
+        publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>(output_topic_, 10);
     }
 
 private:
-    void pointcloud_callback(const sensor_msgs::msg::PointCloud::SharedPtr msg)
+    void pointcloud_callback(const sensor_msgs::msg::PointCloud2::SharedPtr msg)
     {
         // Convert ROS PointCloud2 to PCL PointCloud
         pcl::PointCloud<pcl::PointXYZ>::Ptr temp_cloud(new pcl::PointCloud<pcl::PointXYZ>);
@@ -61,4 +61,3 @@ int main(int argc, char * argv[])
     rclcpp::shutdown();
     return 0;
 }
-
