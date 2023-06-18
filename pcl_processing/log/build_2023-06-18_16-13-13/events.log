@@ -1,0 +1,851 @@
+[0.000000] (-) TimerEvent: {}
+[0.001224] (pcl_processing) JobQueued: {'identifier': 'pcl_processing', 'dependencies': OrderedDict()}
+[0.002618] (pcl_processing) JobStarted: {'identifier': 'pcl_processing'}
+[0.080556] (pcl_processing) JobProgress: {'identifier': 'pcl_processing', 'progress': 'cmake'}
+[0.087950] (pcl_processing) Command: {'cmd': ['/usr/bin/cmake', '/home/asl-bird/catkin_ws/src/pcl_processing', '-DCMAKE_INSTALL_PREFIX=/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing'], 'cwd': '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'asl-bird'), ('SSH_AGENT_PID', '2695'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/asl-bird'), ('OLDPWD', '/home/asl-bird/catkin_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'asl-bird'), ('JOURNAL_STREAM', '7:55150'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asl-bird'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/asl-bird/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2736,unix/ubuntu:/tmp/.ICE-unix/2736'), ('INVOCATION_ID', '8a3d8efd48fc4e56a133113fbad2dcf6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/090bc1b4_c82b_4073_b5a9_54d6da4b3735'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.111778] (-) TimerEvent: {}
+[0.197418] (pcl_processing) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.212091] (-) TimerEvent: {}
+[0.313336] (-) TimerEvent: {}
+[0.316333] (pcl_processing) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.413554] (-) TimerEvent: {}
+[0.514587] (-) TimerEvent: {}
+[0.615590] (-) TimerEvent: {}
+[0.716676] (-) TimerEvent: {}
+[0.817666] (-) TimerEvent: {}
+[0.918625] (-) TimerEvent: {}
+[1.019601] (-) TimerEvent: {}
+[1.120660] (-) TimerEvent: {}
+[1.221562] (-) TimerEvent: {}
+[1.322642] (-) TimerEvent: {}
+[1.325239] (pcl_processing) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.422901] (-) TimerEvent: {}
+[1.501728] (pcl_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.519628] (pcl_processing) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.523055] (-) TimerEvent: {}
+[1.624079] (-) TimerEvent: {}
+[1.725186] (-) TimerEvent: {}
+[1.826332] (-) TimerEvent: {}
+[1.927407] (-) TimerEvent: {}
+[2.028499] (-) TimerEvent: {}
+[2.106307] (pcl_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.128819] (-) TimerEvent: {}
+[2.229849] (-) TimerEvent: {}
+[2.330909] (-) TimerEvent: {}
+[2.358935] (pcl_processing) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.366592] (pcl_processing) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.431179] (-) TimerEvent: {}
+[2.532323] (-) TimerEvent: {}
+[2.633441] (-) TimerEvent: {}
+[2.734575] (-) TimerEvent: {}
+[2.835626] (-) TimerEvent: {}
+[2.936801] (-) TimerEvent: {}
+[3.037899] (-) TimerEvent: {}
+[3.046247] (pcl_processing) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[3.138197] (-) TimerEvent: {}
+[3.239290] (-) TimerEvent: {}
+[3.340459] (-) TimerEvent: {}
+[3.441536] (-) TimerEvent: {}
+[3.542608] (-) TimerEvent: {}
+[3.643748] (-) TimerEvent: {}
+[3.744949] (-) TimerEvent: {}
+[3.846042] (-) TimerEvent: {}
+[3.947173] (-) TimerEvent: {}
+[4.048348] (-) TimerEvent: {}
+[4.149435] (-) TimerEvent: {}
+[4.250499] (-) TimerEvent: {}
+[4.352341] (-) TimerEvent: {}
+[4.376570] (pcl_processing) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[4.452451] (-) TimerEvent: {}
+[4.553556] (-) TimerEvent: {}
+[4.654675] (-) TimerEvent: {}
+[4.755764] (-) TimerEvent: {}
+[4.842984] (pcl_processing) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[4.843860] (pcl_processing) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[4.844489] (pcl_processing) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[4.844918] (pcl_processing) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[4.845446] (pcl_processing) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[4.845869] (pcl_processing) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[4.846319] (pcl_processing) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[4.846701] (pcl_processing) StdoutLine: {'line': b'but not all the files it references.\n'}
+[4.847159] (pcl_processing) StdoutLine: {'line': b'\n'}
+[4.848845] (pcl_processing) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[4.849497] (pcl_processing) StdoutLine: {'line': b'   "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[4.849932] (pcl_processing) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[4.850314] (pcl_processing) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[4.851253] (pcl_processing) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[4.851725] (pcl_processing) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[4.852227] (pcl_processing) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[4.853594] (pcl_processing) StdoutLine: {'line': b'but not all the files it references.\n'}
+[4.854099] (pcl_processing) StdoutLine: {'line': b'\n'}
+[4.854513] (pcl_processing) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[4.854902] (pcl_processing) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[4.855314] (pcl_processing) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[4.855697] (pcl_processing) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[4.856129] (-) TimerEvent: {}
+[4.856631] (pcl_processing) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[4.857091] (pcl_processing) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[4.857454] (pcl_processing) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[4.857839] (pcl_processing) StdoutLine: {'line': b'but not all the files it references.\n'}
+[4.858275] (pcl_processing) StdoutLine: {'line': b'\n'}
+[4.858626] (pcl_processing) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[4.858997] (pcl_processing) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[4.859411] (pcl_processing) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[4.859859] (pcl_processing) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[4.860248] (pcl_processing) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[4.860626] (pcl_processing) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[4.861034] (pcl_processing) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[4.861400] (pcl_processing) StdoutLine: {'line': b'but not all the files it references.\n'}
+[4.861758] (pcl_processing) StdoutLine: {'line': b'\n'}
+[4.956464] (-) TimerEvent: {}
+[4.972617] (pcl_processing) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[5.006568] (pcl_processing) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[5.007964] (pcl_processing) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[5.008951] (pcl_processing) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[5.056700] (-) TimerEvent: {}
+[5.077709] (pcl_processing) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[5.112715] (pcl_processing) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[5.147319] (pcl_processing) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[5.156845] (-) TimerEvent: {}
+[5.220955] (pcl_processing) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)\n'}
+[5.256232] (pcl_processing) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[5.257008] (-) TimerEvent: {}
+[5.328398] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[5.331176] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[5.333576] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[5.335920] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[5.338185] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[5.340674] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[5.343199] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[5.345525] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[5.347376] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[5.350186] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[5.353030] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[5.355261] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[5.357357] (-) TimerEvent: {}
+[5.358461] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[5.361795] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[5.364766] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[5.367698] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[5.370901] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[5.373324] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[5.376583] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[5.378994] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[5.383902] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[5.385817] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[5.388485] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[5.391459] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[5.457614] (-) TimerEvent: {}
+[5.558669] (-) TimerEvent: {}
+[5.601375] (pcl_processing) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.658886] (-) TimerEvent: {}
+[5.759876] (-) TimerEvent: {}
+[5.860962] (-) TimerEvent: {}
+[5.961994] (-) TimerEvent: {}
+[5.994705] (pcl_processing) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.039756] (pcl_processing) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.043579] (pcl_processing) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/asl-bird/catkin_ws/src/pcl_processing/include\n'}
+[6.044622] (pcl_processing) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.062182] (-) TimerEvent: {}
+[6.087982] (pcl_processing) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.088776] (pcl_processing) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.096250] (pcl_processing) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.109817] (pcl_processing) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.117877] (pcl_processing) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[6.162413] (-) TimerEvent: {}
+[6.164223] (pcl_processing) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.164851] (pcl_processing) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.172880] (pcl_processing) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.199595] (pcl_processing) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.262680] (-) TimerEvent: {}
+[6.363962] (-) TimerEvent: {}
+[6.395871] (pcl_processing) StdoutLine: {'line': b'-- Generating done\n'}
+[6.407326] (pcl_processing) StdoutLine: {'line': b'-- Build files have been written to: /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing\n'}
+[6.463646] (pcl_processing) CommandEnded: {'returncode': 0}
+[6.473084] (-) TimerEvent: {}
+[6.482436] (pcl_processing) JobProgress: {'identifier': 'pcl_processing', 'progress': 'build'}
+[6.483197] (pcl_processing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing', '--', '-j6', '-l6'], 'cwd': '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'asl-bird'), ('SSH_AGENT_PID', '2695'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/asl-bird'), ('OLDPWD', '/home/asl-bird/catkin_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'asl-bird'), ('JOURNAL_STREAM', '7:55150'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asl-bird'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/asl-bird/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2736,unix/ubuntu:/tmp/.ICE-unix/2736'), ('INVOCATION_ID', '8a3d8efd48fc4e56a133113fbad2dcf6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/090bc1b4_c82b_4073_b5a9_54d6da4b3735'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.573468] (-) TimerEvent: {}
+[6.674791] (-) TimerEvent: {}
+[6.738431] (pcl_processing) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pointcloud_processor\x1b[0m\n'}
+[6.775028] (-) TimerEvent: {}
+[6.876050] (-) TimerEvent: {}
+[6.977151] (-) TimerEvent: {}
+[7.078336] (-) TimerEvent: {}
+[7.179438] (-) TimerEvent: {}
+[7.280591] (-) TimerEvent: {}
+[7.381662] (-) TimerEvent: {}
+[7.446409] (pcl_processing) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_processor.dir/src/pointcloud_processor.cpp.o\x1b[0m\n'}
+[7.481906] (-) TimerEvent: {}
+[7.582892] (-) TimerEvent: {}
+[7.684175] (-) TimerEvent: {}
+[7.785158] (-) TimerEvent: {}
+[7.886339] (-) TimerEvent: {}
+[7.987330] (-) TimerEvent: {}
+[8.088517] (-) TimerEvent: {}
+[8.189519] (-) TimerEvent: {}
+[8.290631] (-) TimerEvent: {}
+[8.391779] (-) TimerEvent: {}
+[8.492998] (-) TimerEvent: {}
+[8.594046] (-) TimerEvent: {}
+[8.695080] (-) TimerEvent: {}
+[8.796257] (-) TimerEvent: {}
+[8.897375] (-) TimerEvent: {}
+[8.998455] (-) TimerEvent: {}
+[9.099506] (-) TimerEvent: {}
+[9.200649] (-) TimerEvent: {}
+[9.301740] (-) TimerEvent: {}
+[9.402746] (-) TimerEvent: {}
+[9.503974] (-) TimerEvent: {}
+[9.605115] (-) TimerEvent: {}
+[9.706201] (-) TimerEvent: {}
+[9.807275] (-) TimerEvent: {}
+[9.908424] (-) TimerEvent: {}
+[10.009409] (-) TimerEvent: {}
+[10.110462] (-) TimerEvent: {}
+[10.211483] (-) TimerEvent: {}
+[10.312561] (-) TimerEvent: {}
+[10.413647] (-) TimerEvent: {}
+[10.514725] (-) TimerEvent: {}
+[10.615906] (-) TimerEvent: {}
+[10.716944] (-) TimerEvent: {}
+[10.817999] (-) TimerEvent: {}
+[10.919046] (-) TimerEvent: {}
+[11.020121] (-) TimerEvent: {}
+[11.121188] (-) TimerEvent: {}
+[11.222266] (-) TimerEvent: {}
+[11.323370] (-) TimerEvent: {}
+[11.424395] (-) TimerEvent: {}
+[11.525383] (-) TimerEvent: {}
+[11.626448] (-) TimerEvent: {}
+[11.727499] (-) TimerEvent: {}
+[11.828734] (-) TimerEvent: {}
+[11.929863] (-) TimerEvent: {}
+[12.031026] (-) TimerEvent: {}
+[12.132216] (-) TimerEvent: {}
+[12.233377] (-) TimerEvent: {}
+[12.334601] (-) TimerEvent: {}
+[12.435754] (-) TimerEvent: {}
+[12.536870] (-) TimerEvent: {}
+[12.638039] (-) TimerEvent: {}
+[12.739119] (-) TimerEvent: {}
+[12.840346] (-) TimerEvent: {}
+[12.941519] (-) TimerEvent: {}
+[13.042684] (-) TimerEvent: {}
+[13.143767] (-) TimerEvent: {}
+[13.245020] (-) TimerEvent: {}
+[13.346220] (-) TimerEvent: {}
+[13.447490] (-) TimerEvent: {}
+[13.548663] (-) TimerEvent: {}
+[13.649781] (-) TimerEvent: {}
+[13.750905] (-) TimerEvent: {}
+[13.852033] (-) TimerEvent: {}
+[13.953151] (-) TimerEvent: {}
+[14.054284] (-) TimerEvent: {}
+[14.155374] (-) TimerEvent: {}
+[14.256710] (-) TimerEvent: {}
+[14.357819] (-) TimerEvent: {}
+[14.459123] (-) TimerEvent: {}
+[14.560370] (-) TimerEvent: {}
+[14.661545] (-) TimerEvent: {}
+[14.762688] (-) TimerEvent: {}
+[14.864034] (-) TimerEvent: {}
+[14.965196] (-) TimerEvent: {}
+[15.067013] (-) TimerEvent: {}
+[15.168889] (-) TimerEvent: {}
+[15.270042] (-) TimerEvent: {}
+[15.371288] (-) TimerEvent: {}
+[15.472702] (-) TimerEvent: {}
+[15.574030] (-) TimerEvent: {}
+[15.675322] (-) TimerEvent: {}
+[15.776507] (-) TimerEvent: {}
+[15.877671] (-) TimerEvent: {}
+[15.978667] (-) TimerEvent: {}
+[16.079660] (-) TimerEvent: {}
+[16.180717] (-) TimerEvent: {}
+[16.281705] (-) TimerEvent: {}
+[16.382710] (-) TimerEvent: {}
+[16.483636] (-) TimerEvent: {}
+[16.584829] (-) TimerEvent: {}
+[16.685894] (-) TimerEvent: {}
+[16.786908] (-) TimerEvent: {}
+[16.887964] (-) TimerEvent: {}
+[16.989035] (-) TimerEvent: {}
+[17.090056] (-) TimerEvent: {}
+[17.191085] (-) TimerEvent: {}
+[17.292466] (-) TimerEvent: {}
+[17.393495] (-) TimerEvent: {}
+[17.494501] (-) TimerEvent: {}
+[17.595563] (-) TimerEvent: {}
+[17.696632] (-) TimerEvent: {}
+[17.797695] (-) TimerEvent: {}
+[17.898763] (-) TimerEvent: {}
+[17.999928] (-) TimerEvent: {}
+[18.100922] (-) TimerEvent: {}
+[18.201963] (-) TimerEvent: {}
+[18.303039] (-) TimerEvent: {}
+[18.404163] (-) TimerEvent: {}
+[18.505193] (-) TimerEvent: {}
+[18.606360] (-) TimerEvent: {}
+[18.707463] (-) TimerEvent: {}
+[18.808568] (-) TimerEvent: {}
+[18.909761] (-) TimerEvent: {}
+[19.010786] (-) TimerEvent: {}
+[19.112050] (-) TimerEvent: {}
+[19.213058] (-) TimerEvent: {}
+[19.314066] (-) TimerEvent: {}
+[19.415155] (-) TimerEvent: {}
+[19.516465] (-) TimerEvent: {}
+[19.617617] (-) TimerEvent: {}
+[19.718656] (-) TimerEvent: {}
+[19.819742] (-) TimerEvent: {}
+[19.920971] (-) TimerEvent: {}
+[20.022004] (-) TimerEvent: {}
+[20.123032] (-) TimerEvent: {}
+[20.224237] (-) TimerEvent: {}
+[20.325319] (-) TimerEvent: {}
+[20.426355] (-) TimerEvent: {}
+[20.527451] (-) TimerEvent: {}
+[20.628647] (-) TimerEvent: {}
+[20.729796] (-) TimerEvent: {}
+[20.830867] (-) TimerEvent: {}
+[20.931867] (-) TimerEvent: {}
+[21.032928] (-) TimerEvent: {}
+[21.133995] (-) TimerEvent: {}
+[21.235043] (-) TimerEvent: {}
+[21.336155] (-) TimerEvent: {}
+[21.437135] (-) TimerEvent: {}
+[21.538206] (-) TimerEvent: {}
+[21.639262] (-) TimerEvent: {}
+[21.740391] (-) TimerEvent: {}
+[21.841369] (-) TimerEvent: {}
+[21.942425] (-) TimerEvent: {}
+[22.043461] (-) TimerEvent: {}
+[22.144610] (-) TimerEvent: {}
+[22.245742] (-) TimerEvent: {}
+[22.346744] (-) TimerEvent: {}
+[22.447875] (-) TimerEvent: {}
+[22.548897] (-) TimerEvent: {}
+[22.649911] (-) TimerEvent: {}
+[22.750918] (-) TimerEvent: {}
+[22.851952] (-) TimerEvent: {}
+[22.953030] (-) TimerEvent: {}
+[23.054019] (-) TimerEvent: {}
+[23.155009] (-) TimerEvent: {}
+[23.256193] (-) TimerEvent: {}
+[23.357299] (-) TimerEvent: {}
+[23.458416] (-) TimerEvent: {}
+[23.559448] (-) TimerEvent: {}
+[23.660476] (-) TimerEvent: {}
+[23.761588] (-) TimerEvent: {}
+[23.862686] (-) TimerEvent: {}
+[23.963929] (-) TimerEvent: {}
+[24.064885] (-) TimerEvent: {}
+[24.165945] (-) TimerEvent: {}
+[24.266974] (-) TimerEvent: {}
+[24.368204] (-) TimerEvent: {}
+[24.469381] (-) TimerEvent: {}
+[24.570518] (-) TimerEvent: {}
+[24.671486] (-) TimerEvent: {}
+[24.772644] (-) TimerEvent: {}
+[24.873826] (-) TimerEvent: {}
+[24.974940] (-) TimerEvent: {}
+[25.076701] (-) TimerEvent: {}
+[25.177759] (-) TimerEvent: {}
+[25.278790] (-) TimerEvent: {}
+[25.379785] (-) TimerEvent: {}
+[25.480786] (-) TimerEvent: {}
+[25.581711] (-) TimerEvent: {}
+[25.682735] (-) TimerEvent: {}
+[25.783755] (-) TimerEvent: {}
+[25.884958] (-) TimerEvent: {}
+[25.985913] (-) TimerEvent: {}
+[26.086907] (-) TimerEvent: {}
+[26.188099] (-) TimerEvent: {}
+[26.289118] (-) TimerEvent: {}
+[26.390182] (-) TimerEvent: {}
+[26.491177] (-) TimerEvent: {}
+[26.592228] (-) TimerEvent: {}
+[26.693382] (-) TimerEvent: {}
+[26.794554] (-) TimerEvent: {}
+[26.895592] (-) TimerEvent: {}
+[26.996882] (-) TimerEvent: {}
+[27.097904] (-) TimerEvent: {}
+[27.198929] (-) TimerEvent: {}
+[27.300029] (-) TimerEvent: {}
+[27.401229] (-) TimerEvent: {}
+[27.502192] (-) TimerEvent: {}
+[27.603292] (-) TimerEvent: {}
+[27.704508] (-) TimerEvent: {}
+[27.805558] (-) TimerEvent: {}
+[27.906617] (-) TimerEvent: {}
+[28.007721] (-) TimerEvent: {}
+[28.108791] (-) TimerEvent: {}
+[28.209956] (-) TimerEvent: {}
+[28.310993] (-) TimerEvent: {}
+[28.412018] (-) TimerEvent: {}
+[28.513051] (-) TimerEvent: {}
+[28.614101] (-) TimerEvent: {}
+[28.715147] (-) TimerEvent: {}
+[28.816328] (-) TimerEvent: {}
+[28.917406] (-) TimerEvent: {}
+[29.018561] (-) TimerEvent: {}
+[29.119700] (-) TimerEvent: {}
+[29.220939] (-) TimerEvent: {}
+[29.321996] (-) TimerEvent: {}
+[29.423052] (-) TimerEvent: {}
+[29.524149] (-) TimerEvent: {}
+[29.625260] (-) TimerEvent: {}
+[29.726331] (-) TimerEvent: {}
+[29.827372] (-) TimerEvent: {}
+[29.928559] (-) TimerEvent: {}
+[30.029586] (-) TimerEvent: {}
+[30.130545] (-) TimerEvent: {}
+[30.231615] (-) TimerEvent: {}
+[30.332671] (-) TimerEvent: {}
+[30.433719] (-) TimerEvent: {}
+[30.534653] (-) TimerEvent: {}
+[30.635739] (-) TimerEvent: {}
+[30.736899] (-) TimerEvent: {}
+[30.837967] (-) TimerEvent: {}
+[30.939009] (-) TimerEvent: {}
+[31.040177] (-) TimerEvent: {}
+[31.141200] (-) TimerEvent: {}
+[31.242217] (-) TimerEvent: {}
+[31.343345] (-) TimerEvent: {}
+[31.444512] (-) TimerEvent: {}
+[31.545565] (-) TimerEvent: {}
+[31.646784] (-) TimerEvent: {}
+[31.748048] (-) TimerEvent: {}
+[31.849095] (-) TimerEvent: {}
+[31.950114] (-) TimerEvent: {}
+[32.051222] (-) TimerEvent: {}
+[32.152425] (-) TimerEvent: {}
+[32.253514] (-) TimerEvent: {}
+[32.355154] (-) TimerEvent: {}
+[32.456236] (-) TimerEvent: {}
+[32.557295] (-) TimerEvent: {}
+[32.658267] (-) TimerEvent: {}
+[32.759253] (-) TimerEvent: {}
+[32.860436] (-) TimerEvent: {}
+[32.961611] (-) TimerEvent: {}
+[33.062677] (-) TimerEvent: {}
+[33.163761] (-) TimerEvent: {}
+[33.264900] (-) TimerEvent: {}
+[33.365966] (-) TimerEvent: {}
+[33.466981] (-) TimerEvent: {}
+[33.568045] (-) TimerEvent: {}
+[33.669138] (-) TimerEvent: {}
+[33.705678] (pcl_processing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/octree/octree_base.h:45\x1b[m\x1b[K,\n'}
+[33.706729] (pcl_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/octree/octree_pointcloud.h:41\x1b[m\x1b[K,\n'}
+[33.707208] (pcl_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/octree/octree_search.h:43\x1b[m\x1b[K,\n'}
+[33.707646] (pcl_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/search/octree.h:42\x1b[m\x1b[K,\n'}
+[33.708147] (pcl_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/search/pcl_search.h:44\x1b[m\x1b[K,\n'}
+[33.708558] (pcl_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/filters/statistical_outlier_removal.h:43\x1b[m\x1b[K,\n'}
+[33.708959] (pcl_processing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asl-bird/catkin_ws/src/pcl_processing/src/pointcloud_processor.cpp:6\x1b[m\x1b[K:\n'}
+[33.709326] (pcl_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/octree/octree_key.h:155:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[33.709775] (pcl_processing) StderrLine: {'line': b'  155 |         \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[33.710179] (pcl_processing) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[33.769364] (-) TimerEvent: {}
+[33.870406] (-) TimerEvent: {}
+[33.971415] (-) TimerEvent: {}
+[34.072505] (-) TimerEvent: {}
+[34.173564] (-) TimerEvent: {}
+[34.274619] (-) TimerEvent: {}
+[34.375598] (-) TimerEvent: {}
+[34.476740] (-) TimerEvent: {}
+[34.577826] (-) TimerEvent: {}
+[34.678896] (-) TimerEvent: {}
+[34.780083] (-) TimerEvent: {}
+[34.881172] (-) TimerEvent: {}
+[34.982177] (-) TimerEvent: {}
+[35.083272] (-) TimerEvent: {}
+[35.184360] (-) TimerEvent: {}
+[35.285376] (-) TimerEvent: {}
+[35.386399] (-) TimerEvent: {}
+[35.487348] (-) TimerEvent: {}
+[35.588974] (-) TimerEvent: {}
+[35.690023] (-) TimerEvent: {}
+[35.791033] (-) TimerEvent: {}
+[35.892104] (-) TimerEvent: {}
+[35.993093] (-) TimerEvent: {}
+[36.094174] (-) TimerEvent: {}
+[36.195264] (-) TimerEvent: {}
+[36.296346] (-) TimerEvent: {}
+[36.397409] (-) TimerEvent: {}
+[36.499701] (-) TimerEvent: {}
+[36.600891] (-) TimerEvent: {}
+[36.702053] (-) TimerEvent: {}
+[36.803140] (-) TimerEvent: {}
+[36.904270] (-) TimerEvent: {}
+[37.005426] (-) TimerEvent: {}
+[37.106559] (-) TimerEvent: {}
+[37.207708] (-) TimerEvent: {}
+[37.308752] (-) TimerEvent: {}
+[37.409809] (-) TimerEvent: {}
+[37.510906] (-) TimerEvent: {}
+[37.611996] (-) TimerEvent: {}
+[37.713042] (-) TimerEvent: {}
+[37.814004] (-) TimerEvent: {}
+[37.914980] (-) TimerEvent: {}
+[38.016056] (-) TimerEvent: {}
+[38.117083] (-) TimerEvent: {}
+[38.218149] (-) TimerEvent: {}
+[38.319089] (-) TimerEvent: {}
+[38.420192] (-) TimerEvent: {}
+[38.521296] (-) TimerEvent: {}
+[38.622379] (-) TimerEvent: {}
+[38.723473] (-) TimerEvent: {}
+[38.824596] (-) TimerEvent: {}
+[38.925664] (-) TimerEvent: {}
+[39.026727] (-) TimerEvent: {}
+[39.127724] (-) TimerEvent: {}
+[39.228883] (-) TimerEvent: {}
+[39.329992] (-) TimerEvent: {}
+[39.430983] (-) TimerEvent: {}
+[39.532157] (-) TimerEvent: {}
+[39.633211] (-) TimerEvent: {}
+[39.734156] (-) TimerEvent: {}
+[39.835198] (-) TimerEvent: {}
+[39.936548] (-) TimerEvent: {}
+[40.037797] (-) TimerEvent: {}
+[40.139025] (-) TimerEvent: {}
+[40.240435] (-) TimerEvent: {}
+[40.341443] (-) TimerEvent: {}
+[40.442479] (-) TimerEvent: {}
+[40.543421] (-) TimerEvent: {}
+[40.644515] (-) TimerEvent: {}
+[40.745588] (-) TimerEvent: {}
+[40.846703] (-) TimerEvent: {}
+[40.947733] (-) TimerEvent: {}
+[41.048830] (-) TimerEvent: {}
+[41.149882] (-) TimerEvent: {}
+[41.250857] (-) TimerEvent: {}
+[41.351962] (-) TimerEvent: {}
+[41.453022] (-) TimerEvent: {}
+[41.553951] (-) TimerEvent: {}
+[41.655020] (-) TimerEvent: {}
+[41.756167] (-) TimerEvent: {}
+[41.857247] (-) TimerEvent: {}
+[41.958257] (-) TimerEvent: {}
+[42.059331] (-) TimerEvent: {}
+[42.160531] (-) TimerEvent: {}
+[42.261572] (-) TimerEvent: {}
+[42.362616] (-) TimerEvent: {}
+[42.463542] (-) TimerEvent: {}
+[42.564607] (-) TimerEvent: {}
+[42.665611] (-) TimerEvent: {}
+[42.766611] (-) TimerEvent: {}
+[42.867627] (-) TimerEvent: {}
+[42.968650] (-) TimerEvent: {}
+[43.069671] (-) TimerEvent: {}
+[43.170623] (-) TimerEvent: {}
+[43.271662] (-) TimerEvent: {}
+[43.372665] (-) TimerEvent: {}
+[43.473575] (-) TimerEvent: {}
+[43.574655] (-) TimerEvent: {}
+[43.675683] (-) TimerEvent: {}
+[43.776650] (-) TimerEvent: {}
+[43.877574] (-) TimerEvent: {}
+[43.978503] (-) TimerEvent: {}
+[44.079489] (-) TimerEvent: {}
+[44.180623] (-) TimerEvent: {}
+[44.281647] (-) TimerEvent: {}
+[44.382679] (-) TimerEvent: {}
+[44.483601] (-) TimerEvent: {}
+[44.584715] (-) TimerEvent: {}
+[44.685681] (-) TimerEvent: {}
+[44.786689] (-) TimerEvent: {}
+[44.887750] (-) TimerEvent: {}
+[44.988886] (-) TimerEvent: {}
+[45.089913] (-) TimerEvent: {}
+[45.190904] (-) TimerEvent: {}
+[45.292072] (-) TimerEvent: {}
+[45.393267] (-) TimerEvent: {}
+[45.494310] (-) TimerEvent: {}
+[45.595350] (-) TimerEvent: {}
+[45.696439] (-) TimerEvent: {}
+[45.797502] (-) TimerEvent: {}
+[45.898527] (-) TimerEvent: {}
+[45.999574] (-) TimerEvent: {}
+[46.100689] (-) TimerEvent: {}
+[46.201638] (-) TimerEvent: {}
+[46.302746] (-) TimerEvent: {}
+[46.403943] (-) TimerEvent: {}
+[46.505042] (-) TimerEvent: {}
+[46.606074] (-) TimerEvent: {}
+[46.707188] (-) TimerEvent: {}
+[46.808252] (-) TimerEvent: {}
+[46.909291] (-) TimerEvent: {}
+[47.010327] (-) TimerEvent: {}
+[47.111478] (-) TimerEvent: {}
+[47.212570] (-) TimerEvent: {}
+[47.313592] (-) TimerEvent: {}
+[47.414633] (-) TimerEvent: {}
+[47.515706] (-) TimerEvent: {}
+[47.616837] (-) TimerEvent: {}
+[47.717881] (-) TimerEvent: {}
+[47.818937] (-) TimerEvent: {}
+[47.920017] (-) TimerEvent: {}
+[48.021077] (-) TimerEvent: {}
+[48.122132] (-) TimerEvent: {}
+[48.223166] (-) TimerEvent: {}
+[48.324258] (-) TimerEvent: {}
+[48.425311] (-) TimerEvent: {}
+[48.526358] (-) TimerEvent: {}
+[48.627359] (-) TimerEvent: {}
+[48.728397] (-) TimerEvent: {}
+[48.829460] (-) TimerEvent: {}
+[48.930535] (-) TimerEvent: {}
+[49.031599] (-) TimerEvent: {}
+[49.132845] (-) TimerEvent: {}
+[49.233840] (-) TimerEvent: {}
+[49.334937] (-) TimerEvent: {}
+[49.436003] (-) TimerEvent: {}
+[49.537086] (-) TimerEvent: {}
+[49.638174] (-) TimerEvent: {}
+[49.739233] (-) TimerEvent: {}
+[49.840423] (-) TimerEvent: {}
+[49.941477] (-) TimerEvent: {}
+[50.042477] (-) TimerEvent: {}
+[50.143531] (-) TimerEvent: {}
+[50.244689] (-) TimerEvent: {}
+[50.345754] (-) TimerEvent: {}
+[50.446816] (-) TimerEvent: {}
+[50.547994] (-) TimerEvent: {}
+[50.648970] (-) TimerEvent: {}
+[50.750010] (-) TimerEvent: {}
+[50.851065] (-) TimerEvent: {}
+[50.952016] (-) TimerEvent: {}
+[51.053023] (-) TimerEvent: {}
+[51.154024] (-) TimerEvent: {}
+[51.255084] (-) TimerEvent: {}
+[51.356154] (-) TimerEvent: {}
+[51.457109] (-) TimerEvent: {}
+[51.558143] (-) TimerEvent: {}
+[51.659269] (-) TimerEvent: {}
+[51.760395] (-) TimerEvent: {}
+[51.861433] (-) TimerEvent: {}
+[51.962479] (-) TimerEvent: {}
+[52.063528] (-) TimerEvent: {}
+[52.164608] (-) TimerEvent: {}
+[52.265666] (-) TimerEvent: {}
+[52.366665] (-) TimerEvent: {}
+[52.467686] (-) TimerEvent: {}
+[52.568671] (-) TimerEvent: {}
+[52.669753] (-) TimerEvent: {}
+[52.770714] (-) TimerEvent: {}
+[52.871949] (-) TimerEvent: {}
+[52.972935] (-) TimerEvent: {}
+[53.074007] (-) TimerEvent: {}
+[53.175046] (-) TimerEvent: {}
+[53.275995] (-) TimerEvent: {}
+[53.376983] (-) TimerEvent: {}
+[53.478033] (-) TimerEvent: {}
+[53.579030] (-) TimerEvent: {}
+[53.680171] (-) TimerEvent: {}
+[53.781188] (-) TimerEvent: {}
+[53.882189] (-) TimerEvent: {}
+[53.983199] (-) TimerEvent: {}
+[54.084374] (-) TimerEvent: {}
+[54.185306] (-) TimerEvent: {}
+[54.286333] (-) TimerEvent: {}
+[54.387372] (-) TimerEvent: {}
+[54.488483] (-) TimerEvent: {}
+[54.589523] (-) TimerEvent: {}
+[54.690544] (-) TimerEvent: {}
+[54.791632] (-) TimerEvent: {}
+[54.892680] (-) TimerEvent: {}
+[54.993719] (-) TimerEvent: {}
+[55.094765] (-) TimerEvent: {}
+[55.195830] (-) TimerEvent: {}
+[55.296856] (-) TimerEvent: {}
+[55.397867] (-) TimerEvent: {}
+[55.498919] (-) TimerEvent: {}
+[55.600026] (-) TimerEvent: {}
+[55.701096] (-) TimerEvent: {}
+[55.802129] (-) TimerEvent: {}
+[55.903172] (-) TimerEvent: {}
+[56.004267] (-) TimerEvent: {}
+[56.105317] (-) TimerEvent: {}
+[56.206267] (-) TimerEvent: {}
+[56.307303] (-) TimerEvent: {}
+[56.408398] (-) TimerEvent: {}
+[56.509551] (-) TimerEvent: {}
+[56.610792] (-) TimerEvent: {}
+[56.711990] (-) TimerEvent: {}
+[56.813061] (-) TimerEvent: {}
+[56.914174] (-) TimerEvent: {}
+[57.015254] (-) TimerEvent: {}
+[57.116475] (-) TimerEvent: {}
+[57.217547] (-) TimerEvent: {}
+[57.318664] (-) TimerEvent: {}
+[57.419854] (-) TimerEvent: {}
+[57.520792] (-) TimerEvent: {}
+[57.621883] (-) TimerEvent: {}
+[57.723027] (-) TimerEvent: {}
+[57.824195] (-) TimerEvent: {}
+[57.925175] (-) TimerEvent: {}
+[58.026170] (-) TimerEvent: {}
+[58.127299] (-) TimerEvent: {}
+[58.228514] (-) TimerEvent: {}
+[58.329654] (-) TimerEvent: {}
+[58.430627] (-) TimerEvent: {}
+[58.531724] (-) TimerEvent: {}
+[58.632922] (-) TimerEvent: {}
+[58.734086] (-) TimerEvent: {}
+[58.835172] (-) TimerEvent: {}
+[58.936358] (-) TimerEvent: {}
+[59.037455] (-) TimerEvent: {}
+[59.138574] (-) TimerEvent: {}
+[59.239709] (-) TimerEvent: {}
+[59.340939] (-) TimerEvent: {}
+[59.441980] (-) TimerEvent: {}
+[59.542980] (-) TimerEvent: {}
+[59.644240] (-) TimerEvent: {}
+[59.745242] (-) TimerEvent: {}
+[59.846326] (-) TimerEvent: {}
+[59.947403] (-) TimerEvent: {}
+[60.048520] (-) TimerEvent: {}
+[60.149535] (-) TimerEvent: {}
+[60.250597] (-) TimerEvent: {}
+[60.351644] (-) TimerEvent: {}
+[60.452778] (-) TimerEvent: {}
+[60.553853] (-) TimerEvent: {}
+[60.654985] (-) TimerEvent: {}
+[60.756082] (-) TimerEvent: {}
+[60.857129] (-) TimerEvent: {}
+[60.958220] (-) TimerEvent: {}
+[61.059295] (-) TimerEvent: {}
+[61.160385] (-) TimerEvent: {}
+[61.261415] (-) TimerEvent: {}
+[61.362445] (-) TimerEvent: {}
+[61.463450] (-) TimerEvent: {}
+[61.564527] (-) TimerEvent: {}
+[61.665594] (-) TimerEvent: {}
+[61.766638] (-) TimerEvent: {}
+[61.867710] (-) TimerEvent: {}
+[61.968927] (-) TimerEvent: {}
+[62.070031] (-) TimerEvent: {}
+[62.171141] (-) TimerEvent: {}
+[62.272314] (-) TimerEvent: {}
+[62.373436] (-) TimerEvent: {}
+[62.474522] (-) TimerEvent: {}
+[62.575586] (-) TimerEvent: {}
+[62.676920] (-) TimerEvent: {}
+[62.778014] (-) TimerEvent: {}
+[62.879118] (-) TimerEvent: {}
+[62.980250] (-) TimerEvent: {}
+[63.081327] (-) TimerEvent: {}
+[63.182395] (-) TimerEvent: {}
+[63.283365] (-) TimerEvent: {}
+[63.384543] (-) TimerEvent: {}
+[63.485635] (-) TimerEvent: {}
+[63.586728] (-) TimerEvent: {}
+[63.687690] (-) TimerEvent: {}
+[63.788800] (-) TimerEvent: {}
+[63.889873] (-) TimerEvent: {}
+[63.990943] (-) TimerEvent: {}
+[64.092077] (-) TimerEvent: {}
+[64.193131] (-) TimerEvent: {}
+[64.294183] (-) TimerEvent: {}
+[64.395210] (-) TimerEvent: {}
+[64.496306] (-) TimerEvent: {}
+[64.597274] (-) TimerEvent: {}
+[64.698332] (-) TimerEvent: {}
+[64.799306] (-) TimerEvent: {}
+[64.900420] (-) TimerEvent: {}
+[65.001557] (-) TimerEvent: {}
+[65.102531] (-) TimerEvent: {}
+[65.203440] (-) TimerEvent: {}
+[65.304643] (-) TimerEvent: {}
+[65.405669] (-) TimerEvent: {}
+[65.506717] (-) TimerEvent: {}
+[65.607887] (-) TimerEvent: {}
+[65.708958] (-) TimerEvent: {}
+[65.810019] (-) TimerEvent: {}
+[65.911055] (-) TimerEvent: {}
+[66.012154] (-) TimerEvent: {}
+[66.113189] (-) TimerEvent: {}
+[66.214292] (-) TimerEvent: {}
+[66.315366] (-) TimerEvent: {}
+[66.416498] (-) TimerEvent: {}
+[66.517546] (-) TimerEvent: {}
+[66.618597] (-) TimerEvent: {}
+[66.719884] (-) TimerEvent: {}
+[66.820925] (-) TimerEvent: {}
+[66.921895] (-) TimerEvent: {}
+[67.023188] (-) TimerEvent: {}
+[67.124259] (-) TimerEvent: {}
+[67.225306] (-) TimerEvent: {}
+[67.326332] (-) TimerEvent: {}
+[67.427359] (-) TimerEvent: {}
+[67.528457] (-) TimerEvent: {}
+[67.629453] (-) TimerEvent: {}
+[67.730547] (-) TimerEvent: {}
+[67.831527] (-) TimerEvent: {}
+[67.932661] (-) TimerEvent: {}
+[68.033720] (-) TimerEvent: {}
+[68.134640] (-) TimerEvent: {}
+[68.235640] (-) TimerEvent: {}
+[68.336656] (-) TimerEvent: {}
+[68.437731] (-) TimerEvent: {}
+[68.538770] (-) TimerEvent: {}
+[68.639905] (-) TimerEvent: {}
+[68.740954] (-) TimerEvent: {}
+[68.842022] (-) TimerEvent: {}
+[68.943185] (-) TimerEvent: {}
+[69.044299] (-) TimerEvent: {}
+[69.145375] (-) TimerEvent: {}
+[69.246479] (-) TimerEvent: {}
+[69.347609] (-) TimerEvent: {}
+[69.448921] (-) TimerEvent: {}
+[69.550061] (-) TimerEvent: {}
+[69.651366] (-) TimerEvent: {}
+[69.752598] (-) TimerEvent: {}
+[69.853709] (-) TimerEvent: {}
+[69.954908] (-) TimerEvent: {}
+[70.056210] (-) TimerEvent: {}
+[70.157340] (-) TimerEvent: {}
+[70.258400] (-) TimerEvent: {}
+[70.359458] (-) TimerEvent: {}
+[70.460549] (-) TimerEvent: {}
+[70.561545] (-) TimerEvent: {}
+[70.662673] (-) TimerEvent: {}
+[70.764656] (-) TimerEvent: {}
+[70.865675] (-) TimerEvent: {}
+[70.966892] (-) TimerEvent: {}
+[71.068067] (-) TimerEvent: {}
+[71.169205] (-) TimerEvent: {}
+[71.270325] (-) TimerEvent: {}
+[71.332301] (pcl_processing) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pointcloud_processor\x1b[0m\n'}
+[71.370622] (-) TimerEvent: {}
+[71.471697] (-) TimerEvent: {}
+[71.572800] (-) TimerEvent: {}
+[71.673754] (-) TimerEvent: {}
+[71.776099] (-) TimerEvent: {}
+[71.877577] (-) TimerEvent: {}
+[71.978904] (-) TimerEvent: {}
+[72.080292] (-) TimerEvent: {}
+[72.181365] (-) TimerEvent: {}
+[72.282721] (-) TimerEvent: {}
+[72.383928] (-) TimerEvent: {}
+[72.485047] (-) TimerEvent: {}
+[72.586260] (-) TimerEvent: {}
+[72.687419] (-) TimerEvent: {}
+[72.788743] (-) TimerEvent: {}
+[72.889934] (-) TimerEvent: {}
+[72.991097] (-) TimerEvent: {}
+[73.018913] (pcl_processing) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/pointcloud_processor.dir/src/pointcloud_processor.cpp.o:(.data.rel.ro._ZTVN3pcl25StatisticalOutlierRemovalINS_8PointXYZEEE[_ZTVN3pcl25StatisticalOutlierRemovalINS_8PointXYZEEE]+0x48): undefined reference to `pcl::StatisticalOutlierRemoval<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'\n"}
+[73.020610] (pcl_processing) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/pointcloud_processor.dir/src/pointcloud_processor.cpp.o: in function `pcl::StatisticalOutlierRemoval<pcl::PointXYZ>::applyFilter(std::vector<int, std::allocator<int> >&)':\n"}
+[73.022490] (pcl_processing) StderrLine: {'line': b"pointcloud_processor.cpp:(.text._ZN3pcl25StatisticalOutlierRemovalINS_8PointXYZEE11applyFilterERSt6vectorIiSaIiEE[_ZN3pcl25StatisticalOutlierRemovalINS_8PointXYZEE11applyFilterERSt6vectorIiSaIiEE]+0x18): undefined reference to `pcl::StatisticalOutlierRemoval<pcl::PointXYZ>::applyFilterIndices(std::vector<int, std::allocator<int> >&)'\n"}
+[73.023175] (pcl_processing) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[73.029252] (pcl_processing) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pointcloud_processor.dir/build.make:191: pointcloud_processor] Error 1\n'}
+[73.030817] (pcl_processing) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pointcloud_processor.dir/all] Error 2\n'}
+[73.032163] (pcl_processing) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[73.045759] (pcl_processing) CommandEnded: {'returncode': 2}
+[73.091910] (-) TimerEvent: {}
+[73.194561] (-) TimerEvent: {}
+[73.297694] (-) TimerEvent: {}
+[73.308759] (pcl_processing) JobEnded: {'identifier': 'pcl_processing', 'rc': 2}
+[73.321047] (-) EventReactorShutdown: {}

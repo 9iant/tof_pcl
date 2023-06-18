@@ -1,0 +1,121 @@
+[0.140s] Invoking command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing -- -j6 -l6
+[0.351s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.478s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.580s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.770s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.625s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.308s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[4.531s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[5.003s] -- The imported target "vtkParseOGLExt" references the file
+[5.004s]    "/usr/bin/vtkParseOGLExt-7.1"
+[5.004s] but this file does not exist.  Possible reasons include:
+[5.005s] * The file was deleted, renamed, or moved to another location.
+[5.005s] * An install or uninstall procedure did not complete successfully.
+[5.006s] * The installation package was faulty and contained
+[5.006s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.006s] but not all the files it references.
+[5.007s] 
+[5.009s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[5.010s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[5.010s] but this file does not exist.  Possible reasons include:
+[5.011s] * The file was deleted, renamed, or moved to another location.
+[5.011s] * An install or uninstall procedure did not complete successfully.
+[5.012s] * The installation package was faulty and contained
+[5.012s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.013s] but not all the files it references.
+[5.013s] 
+[5.015s] -- The imported target "vtk" references the file
+[5.015s]    "/usr/bin/vtk"
+[5.016s] but this file does not exist.  Possible reasons include:
+[5.016s] * The file was deleted, renamed, or moved to another location.
+[5.017s] * An install or uninstall procedure did not complete successfully.
+[5.018s] * The installation package was faulty and contained
+[5.018s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.019s] but not all the files it references.
+[5.019s] 
+[5.019s] -- The imported target "pvtk" references the file
+[5.020s]    "/usr/bin/pvtk"
+[5.020s] but this file does not exist.  Possible reasons include:
+[5.021s] * The file was deleted, renamed, or moved to another location.
+[5.021s] * An install or uninstall procedure did not complete successfully.
+[5.021s] * The installation package was faulty and contained
+[5.022s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.022s] but not all the files it references.
+[5.023s] 
+[5.132s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[5.167s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[5.168s] ** WARNING ** io features related to pcap will be disabled
+[5.169s] ** WARNING ** io features related to png will be disabled
+[5.236s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[5.273s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[5.307s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[5.378s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[5.411s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[5.480s] -- looking for PCL_COMMON
+[5.483s] -- looking for PCL_KDTREE
+[5.485s] -- looking for PCL_OCTREE
+[5.488s] -- looking for PCL_SEARCH
+[5.490s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.492s] -- looking for PCL_FILTERS
+[5.495s] -- looking for PCL_2D
+[5.497s] -- looking for PCL_GEOMETRY
+[5.499s] -- looking for PCL_IO
+[5.501s] -- looking for PCL_FEATURES
+[5.504s] -- looking for PCL_ML
+[5.506s] -- looking for PCL_SEGMENTATION
+[5.509s] -- looking for PCL_VISUALIZATION
+[5.512s] -- looking for PCL_SURFACE
+[5.515s] -- looking for PCL_REGISTRATION
+[5.517s] -- looking for PCL_KEYPOINTS
+[5.520s] -- looking for PCL_TRACKING
+[5.522s] -- looking for PCL_RECOGNITION
+[5.525s] -- looking for PCL_STEREO
+[5.528s] -- looking for PCL_APPS
+[5.532s] -- looking for PCL_IN_HAND_SCANNER
+[5.534s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.536s] -- looking for PCL_OUTOFCORE
+[5.538s] -- looking for PCL_PEOPLE
+[5.724s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.061s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.131s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.134s] -- Configured cppcheck include dirs: /home/asl-bird/catkin_ws/src/pcl_processing/include
+[6.135s] -- Configured cppcheck exclude dirs and/or files: 
+[6.201s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.202s] -- Configured cpplint exclude dirs and/or files: 
+[6.211s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.229s] -- Added test 'lint_cmake' to check CMake code style
+[6.238s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.304s] -- Added test 'uncrustify' to check C / C++ code style
+[6.305s] -- Configured uncrustify additional arguments: 
+[6.314s] -- Added test 'xmllint' to check XML markup files
+[6.337s] -- Configuring done
+[6.790s] -- Generating done
+[6.805s] -- Build files have been written to: /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing
+[7.009s] [35m[1mScanning dependencies of target pointcloud_processor[0m
+[7.190s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_processor.dir/src/pointcloud_processor.cpp.o[0m
+[65.922s] [100%] [32m[1mLinking CXX executable pointcloud_processor[0m
+[70.239s] [100%] Built target pointcloud_processor
+[70.306s] Invoked command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing -- -j6 -l6
+[70.532s] Invoking command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing
+[70.585s] -- Install configuration: ""
+[70.586s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/lib/pcl_processing/pointcloud_processor
+[70.612s] -- Set runtime path of "/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/lib/pcl_processing/pointcloud_processor" to ""
+[70.612s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/ament_index/resource_index/package_run_dependencies/pcl_processing
+[70.614s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/ament_index/resource_index/parent_prefix_path/pcl_processing
+[70.615s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/environment/ament_prefix_path.sh
+[70.616s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/environment/ament_prefix_path.dsv
+[70.617s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/environment/path.sh
+[70.618s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/environment/path.dsv
+[70.619s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/local_setup.bash
+[70.620s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/local_setup.sh
+[70.621s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/local_setup.zsh
+[70.622s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/local_setup.dsv
+[70.623s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.dsv
+[70.625s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/ament_index/resource_index/packages/pcl_processing
+[70.626s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/cmake/pcl_processingConfig.cmake
+[70.627s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/cmake/pcl_processingConfig-version.cmake
+[70.628s] -- Installing: /home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.xml
+[70.644s] Invoked command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing

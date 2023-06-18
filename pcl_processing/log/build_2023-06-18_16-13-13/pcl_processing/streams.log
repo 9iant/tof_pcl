@@ -1,0 +1,119 @@
+[0.105s] Invoking command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/asl-bird/catkin_ws/src/pcl_processing -DCMAKE_INSTALL_PREFIX=/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing
+[0.196s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.314s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.323s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.500s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.518s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.105s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.357s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.044s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[4.375s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[4.841s] -- The imported target "vtkParseOGLExt" references the file
+[4.842s]    "/usr/bin/vtkParseOGLExt-7.1"
+[4.842s] but this file does not exist.  Possible reasons include:
+[4.843s] * The file was deleted, renamed, or moved to another location.
+[4.843s] * An install or uninstall procedure did not complete successfully.
+[4.844s] * The installation package was faulty and contained
+[4.844s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.844s] but not all the files it references.
+[4.845s] 
+[4.847s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[4.847s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[4.847s] but this file does not exist.  Possible reasons include:
+[4.848s] * The file was deleted, renamed, or moved to another location.
+[4.849s] * An install or uninstall procedure did not complete successfully.
+[4.849s] * The installation package was faulty and contained
+[4.850s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.851s] but not all the files it references.
+[4.852s] 
+[4.852s] -- The imported target "vtk" references the file
+[4.852s]    "/usr/bin/vtk"
+[4.853s] but this file does not exist.  Possible reasons include:
+[4.853s] * The file was deleted, renamed, or moved to another location.
+[4.854s] * An install or uninstall procedure did not complete successfully.
+[4.855s] * The installation package was faulty and contained
+[4.855s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.855s] but not all the files it references.
+[4.856s] 
+[4.856s] -- The imported target "pvtk" references the file
+[4.857s]    "/usr/bin/pvtk"
+[4.857s] but this file does not exist.  Possible reasons include:
+[4.857s] * The file was deleted, renamed, or moved to another location.
+[4.858s] * An install or uninstall procedure did not complete successfully.
+[4.858s] * The installation package was faulty and contained
+[4.859s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.859s] but not all the files it references.
+[4.859s] 
+[4.970s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[5.004s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[5.006s] ** WARNING ** io features related to pcap will be disabled
+[5.007s] ** WARNING ** io features related to png will be disabled
+[5.076s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[5.111s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[5.145s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[5.219s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[5.254s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[5.326s] -- looking for PCL_COMMON
+[5.329s] -- looking for PCL_KDTREE
+[5.331s] -- looking for PCL_OCTREE
+[5.334s] -- looking for PCL_SEARCH
+[5.336s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.338s] -- looking for PCL_FILTERS
+[5.341s] -- looking for PCL_2D
+[5.343s] -- looking for PCL_GEOMETRY
+[5.345s] -- looking for PCL_IO
+[5.348s] -- looking for PCL_FEATURES
+[5.351s] -- looking for PCL_ML
+[5.353s] -- looking for PCL_SEGMENTATION
+[5.356s] -- looking for PCL_VISUALIZATION
+[5.360s] -- looking for PCL_SURFACE
+[5.363s] -- looking for PCL_REGISTRATION
+[5.366s] -- looking for PCL_KEYPOINTS
+[5.369s] -- looking for PCL_TRACKING
+[5.371s] -- looking for PCL_RECOGNITION
+[5.374s] -- looking for PCL_STEREO
+[5.377s] -- looking for PCL_APPS
+[5.382s] -- looking for PCL_IN_HAND_SCANNER
+[5.384s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.386s] -- looking for PCL_OUTOFCORE
+[5.389s] -- looking for PCL_PEOPLE
+[5.599s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.993s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.038s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.042s] -- Configured cppcheck include dirs: /home/asl-bird/catkin_ws/src/pcl_processing/include
+[6.042s] -- Configured cppcheck exclude dirs and/or files: 
+[6.086s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.086s] -- Configured cpplint exclude dirs and/or files: 
+[6.094s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.108s] -- Added test 'lint_cmake' to check CMake code style
+[6.116s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.162s] -- Added test 'uncrustify' to check C / C++ code style
+[6.162s] -- Configured uncrustify additional arguments: 
+[6.171s] -- Added test 'xmllint' to check XML markup files
+[6.198s] -- Configuring done
+[6.394s] -- Generating done
+[6.406s] -- Build files have been written to: /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing
+[6.464s] Invoked command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/asl-bird/catkin_ws/src/pcl_processing -DCMAKE_INSTALL_PREFIX=/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing
+[6.486s] Invoking command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing -- -j6 -l6
+[6.736s] [35m[1mScanning dependencies of target pointcloud_processor[0m
+[7.444s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_processor.dir/src/pointcloud_processor.cpp.o[0m
+[33.704s] In file included from [01m[K/usr/include/pcl-1.10/pcl/octree/octree_base.h:45[m[K,
+[33.704s]                  from [01m[K/usr/include/pcl-1.10/pcl/octree/octree_pointcloud.h:41[m[K,
+[33.705s]                  from [01m[K/usr/include/pcl-1.10/pcl/octree/octree_search.h:43[m[K,
+[33.705s]                  from [01m[K/usr/include/pcl-1.10/pcl/search/octree.h:42[m[K,
+[33.706s]                  from [01m[K/usr/include/pcl-1.10/pcl/search/pcl_search.h:44[m[K,
+[33.706s]                  from [01m[K/usr/include/pcl-1.10/pcl/filters/statistical_outlier_removal.h:43[m[K,
+[33.707s]                  from [01m[K/home/asl-bird/catkin_ws/src/pcl_processing/src/pointcloud_processor.cpp:6[m[K:
+[33.707s] [01m[K/usr/include/pcl-1.10/pcl/octree/octree_key.h:155:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[33.707s]   155 |         [01;35m[K}[m[K;
+[33.708s]       |         [01;35m[K^[m[K
+[71.330s] [100%] [32m[1mLinking CXX executable pointcloud_processor[0m
+[73.018s] /usr/bin/ld: CMakeFiles/pointcloud_processor.dir/src/pointcloud_processor.cpp.o:(.data.rel.ro._ZTVN3pcl25StatisticalOutlierRemovalINS_8PointXYZEEE[_ZTVN3pcl25StatisticalOutlierRemovalINS_8PointXYZEEE]+0x48): undefined reference to `pcl::StatisticalOutlierRemoval<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+[73.019s] /usr/bin/ld: CMakeFiles/pointcloud_processor.dir/src/pointcloud_processor.cpp.o: in function `pcl::StatisticalOutlierRemoval<pcl::PointXYZ>::applyFilter(std::vector<int, std::allocator<int> >&)':
+[73.020s] pointcloud_processor.cpp:(.text._ZN3pcl25StatisticalOutlierRemovalINS_8PointXYZEE11applyFilterERSt6vectorIiSaIiEE[_ZN3pcl25StatisticalOutlierRemovalINS_8PointXYZEE11applyFilterERSt6vectorIiSaIiEE]+0x18): undefined reference to `pcl::StatisticalOutlierRemoval<pcl::PointXYZ>::applyFilterIndices(std::vector<int, std::allocator<int> >&)'
+[73.021s] collect2: error: ld returned 1 exit status
+[73.027s] make[2]: *** [CMakeFiles/pointcloud_processor.dir/build.make:191: pointcloud_processor] Error 1
+[73.028s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pointcloud_processor.dir/all] Error 2
+[73.030s] make: *** [Makefile:141: all] Error 2
+[73.047s] Invoked command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing -- -j6 -l6

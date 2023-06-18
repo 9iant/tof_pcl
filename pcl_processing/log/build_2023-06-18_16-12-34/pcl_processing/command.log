@@ -1,0 +1,2 @@
+Invoking command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/asl-bird/catkin_ws/src/pcl_processing -DCMAKE_INSTALL_PREFIX=/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing
+Invoked command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/asl-bird/catkin_ws/src/pcl_processing -DCMAKE_INSTALL_PREFIX=/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing

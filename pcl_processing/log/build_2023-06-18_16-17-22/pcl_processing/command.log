@@ -1,0 +1,4 @@
+Invoking command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing -- -j6 -l6
+Invoked command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing -- -j6 -l6
+Invoking command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing
+Invoked command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing

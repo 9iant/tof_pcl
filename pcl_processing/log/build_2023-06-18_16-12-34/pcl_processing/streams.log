@@ -1,0 +1,156 @@
+[0.102s] Invoking command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/asl-bird/catkin_ws/src/pcl_processing -DCMAKE_INSTALL_PREFIX=/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing
+[0.478s] -- The C compiler identification is GNU 9.4.0
+[0.843s] -- The CXX compiler identification is GNU 9.4.0
+[0.874s] -- Check for working C compiler: /usr/bin/cc
+[1.302s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.307s] -- Detecting C compiler ABI info
+[1.742s] -- Detecting C compiler ABI info - done
+[1.813s] -- Detecting C compile features
+[1.814s] -- Detecting C compile features - done
+[1.828s] -- Check for working CXX compiler: /usr/bin/c++
+[2.309s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.315s] -- Detecting CXX compiler ABI info
+[2.791s] -- Detecting CXX compiler ABI info - done
+[2.857s] -- Detecting CXX compile features
+[2.860s] -- Detecting CXX compile features - done
+[2.871s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.994s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.995s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.072s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.320s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.795s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.931s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.577s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.584s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.588s] -- Looking for pthread.h
+[6.045s] -- Looking for pthread.h - found
+[6.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.510s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.512s] -- Looking for pthread_create in pthreads
+[6.895s] -- Looking for pthread_create in pthreads - not found
+[6.897s] -- Looking for pthread_create in pthread
+[7.322s] -- Looking for pthread_create in pthread - found
+[7.330s] -- Found Threads: TRUE  
+[8.038s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[9.366s] -- Checking for module 'eigen3'
+[9.465s] --   Found eigen3, version 3.3.7
+[9.723s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[9.723s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[9.933s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[10.007s] -- Checking for module 'flann'
+[10.106s] --   Found flann, version 1.9.1
+[10.383s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[10.721s] -- The imported target "vtkParseOGLExt" references the file
+[10.722s]    "/usr/bin/vtkParseOGLExt-7.1"
+[10.723s] but this file does not exist.  Possible reasons include:
+[10.723s] * The file was deleted, renamed, or moved to another location.
+[10.724s] * An install or uninstall procedure did not complete successfully.
+[10.724s] * The installation package was faulty and contained
+[10.724s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[10.725s] but not all the files it references.
+[10.725s] 
+[10.728s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[10.729s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[10.729s] but this file does not exist.  Possible reasons include:
+[10.729s] * The file was deleted, renamed, or moved to another location.
+[10.730s] * An install or uninstall procedure did not complete successfully.
+[10.730s] * The installation package was faulty and contained
+[10.731s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[10.731s] but not all the files it references.
+[10.732s] 
+[10.733s] -- The imported target "vtk" references the file
+[10.733s]    "/usr/bin/vtk"
+[10.734s] but this file does not exist.  Possible reasons include:
+[10.734s] * The file was deleted, renamed, or moved to another location.
+[10.735s] * An install or uninstall procedure did not complete successfully.
+[10.735s] * The installation package was faulty and contained
+[10.736s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[10.736s] but not all the files it references.
+[10.736s] 
+[10.737s] -- The imported target "pvtk" references the file
+[10.737s]    "/usr/bin/pvtk"
+[10.738s] but this file does not exist.  Possible reasons include:
+[10.738s] * The file was deleted, renamed, or moved to another location.
+[10.739s] * An install or uninstall procedure did not complete successfully.
+[10.739s] * The installation package was faulty and contained
+[10.739s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[10.740s] but not all the files it references.
+[10.740s] 
+[10.843s] -- Checking for module 'libusb-1.0'
+[10.944s] --   Found libusb-1.0, version 1.0.23
+[11.214s] -- Found USB_10: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[11.584s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[11.584s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[11.991s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[11.992s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[11.993s] ** WARNING ** io features related to pcap will be disabled
+[11.994s] ** WARNING ** io features related to png will be disabled
+[12.067s] -- Found libusb-1.0: /usr/include  
+[12.068s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[12.102s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[12.136s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[12.275s] -- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  
+[12.276s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[12.309s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[12.378s] -- looking for PCL_COMMON
+[12.384s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[12.385s] -- looking for PCL_KDTREE
+[12.390s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[12.391s] -- looking for PCL_OCTREE
+[12.395s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[12.396s] -- looking for PCL_SEARCH
+[12.401s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[12.402s] -- looking for PCL_SAMPLE_CONSENSUS
+[12.406s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[12.407s] -- looking for PCL_FILTERS
+[12.411s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[12.412s] -- looking for PCL_2D
+[12.414s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[12.415s] -- looking for PCL_GEOMETRY
+[12.416s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[12.417s] -- looking for PCL_IO
+[12.421s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[12.423s] -- looking for PCL_FEATURES
+[12.427s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[12.429s] -- looking for PCL_ML
+[12.434s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[12.435s] -- looking for PCL_SEGMENTATION
+[12.439s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[12.441s] -- looking for PCL_VISUALIZATION
+[12.445s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[12.447s] -- looking for PCL_SURFACE
+[12.452s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[12.453s] -- looking for PCL_REGISTRATION
+[12.458s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[12.460s] -- looking for PCL_KEYPOINTS
+[12.464s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[12.466s] -- looking for PCL_TRACKING
+[12.470s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[12.472s] -- looking for PCL_RECOGNITION
+[12.476s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[12.478s] -- looking for PCL_STEREO
+[12.482s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[12.483s] -- looking for PCL_APPS
+[12.488s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[12.492s] -- looking for PCL_IN_HAND_SCANNER
+[12.493s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[12.494s] -- looking for PCL_POINT_CLOUD_EDITOR
+[12.497s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[12.497s] -- looking for PCL_OUTOFCORE
+[12.502s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[12.504s] -- looking for PCL_PEOPLE
+[12.508s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[12.514s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/aarch64-linux-gnu/libboost_system.so;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so;optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/aarch64-linux-gnu/libfreetype.so;/usr/lib/aarch64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/aarch64-linux-gnu/libjpeg.so;/usr/lib/aarch64-linux-gnu/libpng.so;/usr/lib/aarch64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/aarch64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[12.519s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[12.519s]   ament_target_dependencies() the passed package name 'pcl_convensions' was
+[12.520s]   not found before
+[12.520s] Call Stack (most recent call first):
+[12.520s]   CMakeLists.txt:28 (ament_target_dependencies)
+[12.521s] 
+[12.521s] 
+[12.537s] -- Configuring incomplete, errors occurred!
+[12.538s] See also "/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing/CMakeFiles/CMakeOutput.log".
+[12.538s] See also "/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing/CMakeFiles/CMakeError.log".
+[12.601s] Invoked command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/asl-bird/catkin_ws/src/pcl_processing -DCMAKE_INSTALL_PREFIX=/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing

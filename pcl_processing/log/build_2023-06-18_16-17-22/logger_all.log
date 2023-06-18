@@ -1,0 +1,103 @@
+[1.891s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pcl_processing']
+[1.892s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8d68e6d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['pcl_processing'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8d68e6d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8d68ec10>)
+[2.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.105s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/asl-bird/catkin_ws/src/pcl_processing'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.184s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'pcl_processing'
+[2.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.328s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 265 installed packages in /opt/ros/foxy
+[2.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.756s] Level 5:colcon.colcon_core.verb:set package 'pcl_processing' build argument 'cmake_args' from command line to 'None'
+[2.756s] Level 5:colcon.colcon_core.verb:set package 'pcl_processing' build argument 'cmake_target' from command line to 'None'
+[2.757s] Level 5:colcon.colcon_core.verb:set package 'pcl_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.757s] Level 5:colcon.colcon_core.verb:set package 'pcl_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[2.757s] Level 5:colcon.colcon_core.verb:set package 'pcl_processing' build argument 'cmake_clean_first' from command line to 'False'
+[2.757s] Level 5:colcon.colcon_core.verb:set package 'pcl_processing' build argument 'cmake_force_configure' from command line to 'False'
+[2.757s] Level 5:colcon.colcon_core.verb:set package 'pcl_processing' build argument 'ament_cmake_args' from command line to 'None'
+[2.757s] Level 5:colcon.colcon_core.verb:set package 'pcl_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[2.758s] Level 5:colcon.colcon_core.verb:set package 'pcl_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.758s] DEBUG:colcon.colcon_core.verb:Building package 'pcl_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing', 'merge_install': False, 'path': '/home/asl-bird/catkin_ws/src/pcl_processing', 'symlink_install': False, 'test_result_base': None}
+[2.765s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.802s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.804s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asl-bird/catkin_ws/src/pcl_processing' with build type 'ament_cmake'
+[2.805s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asl-bird/catkin_ws/src/pcl_processing'
+[2.843s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing -- -j6 -l6
+[73.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing -- -j6 -l6
+[73.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing
+[73.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_processing)
+[73.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing
+[73.496s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing' for CMake module files
+[73.499s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing' for CMake config files
+[73.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_processing', 'cmake_prefix_path')
+[73.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/hook/cmake_prefix_path.ps1'
+[73.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/hook/cmake_prefix_path.dsv'
+[73.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/hook/cmake_prefix_path.sh'
+[73.526s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/lib'
+[73.527s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/bin'
+[73.527s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/lib/pkgconfig/pcl_processing.pc'
+[73.529s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/lib/python3.8/site-packages'
+[73.530s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/bin'
+[73.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.ps1'
+[73.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.dsv'
+[73.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.sh'
+[73.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.bash'
+[73.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.zsh'
+[73.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/colcon-core/packages/pcl_processing)
+[73.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_processing)
+[73.752s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing' for CMake module files
+[73.756s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing' for CMake config files
+[73.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_processing', 'cmake_prefix_path')
+[73.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/hook/cmake_prefix_path.ps1'
+[73.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/hook/cmake_prefix_path.dsv'
+[73.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/hook/cmake_prefix_path.sh'
+[73.780s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/lib'
+[73.781s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/bin'
+[73.781s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/lib/pkgconfig/pcl_processing.pc'
+[73.783s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/lib/python3.8/site-packages'
+[73.783s] Level 1:colcon.colcon_core.environment:checking '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/bin'
+[73.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.ps1'
+[73.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.dsv'
+[73.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.sh'
+[73.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.bash'
+[73.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/pcl_processing/package.zsh'
+[73.810s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing/share/colcon-core/packages/pcl_processing)
+[73.812s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[73.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[73.815s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[73.816s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[73.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[73.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[73.850s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[73.945s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[73.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asl-bird/catkin_ws/src/pcl_processing/install/local_setup.ps1'
+[73.963s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asl-bird/catkin_ws/src/pcl_processing/install/_local_setup_util_ps1.py'
+[73.970s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asl-bird/catkin_ws/src/pcl_processing/install/setup.ps1'
+[73.978s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asl-bird/catkin_ws/src/pcl_processing/install/local_setup.sh'
+[73.981s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asl-bird/catkin_ws/src/pcl_processing/install/_local_setup_util_sh.py'
+[73.984s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asl-bird/catkin_ws/src/pcl_processing/install/setup.sh'
+[73.992s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asl-bird/catkin_ws/src/pcl_processing/install/local_setup.bash'
+[73.994s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asl-bird/catkin_ws/src/pcl_processing/install/setup.bash'
+[74.002s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asl-bird/catkin_ws/src/pcl_processing/install/local_setup.zsh'
+[74.005s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asl-bird/catkin_ws/src/pcl_processing/install/setup.zsh'

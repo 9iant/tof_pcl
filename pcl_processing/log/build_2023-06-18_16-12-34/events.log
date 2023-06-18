@@ -1,0 +1,288 @@
+[0.000000] (-) TimerEvent: {}
+[0.002519] (pcl_processing) JobQueued: {'identifier': 'pcl_processing', 'dependencies': OrderedDict()}
+[0.003503] (pcl_processing) JobStarted: {'identifier': 'pcl_processing'}
+[0.080855] (pcl_processing) JobProgress: {'identifier': 'pcl_processing', 'progress': 'cmake'}
+[0.084877] (pcl_processing) Command: {'cmd': ['/usr/bin/cmake', '/home/asl-bird/catkin_ws/src/pcl_processing', '-DCMAKE_INSTALL_PREFIX=/home/asl-bird/catkin_ws/src/pcl_processing/install/pcl_processing'], 'cwd': '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'asl-bird'), ('SSH_AGENT_PID', '2695'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/asl-bird'), ('OLDPWD', '/home/asl-bird/catkin_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'asl-bird'), ('JOURNAL_STREAM', '7:55150'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asl-bird'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/asl-bird/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2736,unix/ubuntu:/tmp/.ICE-unix/2736'), ('INVOCATION_ID', '8a3d8efd48fc4e56a133113fbad2dcf6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/090bc1b4_c82b_4073_b5a9_54d6da4b3735'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.114860] (-) TimerEvent: {}
+[0.216873] (-) TimerEvent: {}
+[0.317922] (-) TimerEvent: {}
+[0.419019] (-) TimerEvent: {}
+[0.482387] (pcl_processing) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.519316] (-) TimerEvent: {}
+[0.620340] (-) TimerEvent: {}
+[0.721463] (-) TimerEvent: {}
+[0.822649] (-) TimerEvent: {}
+[0.846778] (pcl_processing) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.878644] (pcl_processing) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.923001] (-) TimerEvent: {}
+[1.024038] (-) TimerEvent: {}
+[1.125110] (-) TimerEvent: {}
+[1.226309] (-) TimerEvent: {}
+[1.306358] (pcl_processing) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.311222] (pcl_processing) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.326532] (-) TimerEvent: {}
+[1.427626] (-) TimerEvent: {}
+[1.528984] (-) TimerEvent: {}
+[1.629986] (-) TimerEvent: {}
+[1.731134] (-) TimerEvent: {}
+[1.746119] (pcl_processing) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.817213] (pcl_processing) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.818641] (pcl_processing) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.831280] (-) TimerEvent: {}
+[1.832519] (pcl_processing) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.931574] (-) TimerEvent: {}
+[2.032677] (-) TimerEvent: {}
+[2.133668] (-) TimerEvent: {}
+[2.234734] (-) TimerEvent: {}
+[2.313357] (pcl_processing) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.319581] (pcl_processing) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.334918] (-) TimerEvent: {}
+[2.436309] (-) TimerEvent: {}
+[2.537199] (-) TimerEvent: {}
+[2.638207] (-) TimerEvent: {}
+[2.739410] (-) TimerEvent: {}
+[2.795562] (pcl_processing) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.839659] (-) TimerEvent: {}
+[2.861348] (pcl_processing) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.863948] (pcl_processing) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.875426] (pcl_processing) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.939866] (-) TimerEvent: {}
+[2.997920] (pcl_processing) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.999262] (pcl_processing) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.040052] (-) TimerEvent: {}
+[3.141060] (-) TimerEvent: {}
+[3.242096] (-) TimerEvent: {}
+[3.343144] (-) TimerEvent: {}
+[3.444063] (-) TimerEvent: {}
+[3.545074] (-) TimerEvent: {}
+[3.646225] (-) TimerEvent: {}
+[3.747270] (-) TimerEvent: {}
+[3.848308] (-) TimerEvent: {}
+[3.949288] (-) TimerEvent: {}
+[4.050292] (-) TimerEvent: {}
+[4.076141] (pcl_processing) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[4.150555] (-) TimerEvent: {}
+[4.251650] (-) TimerEvent: {}
+[4.294208] (pcl_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.324453] (pcl_processing) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.351875] (-) TimerEvent: {}
+[4.452998] (-) TimerEvent: {}
+[4.554096] (-) TimerEvent: {}
+[4.655250] (-) TimerEvent: {}
+[4.756364] (-) TimerEvent: {}
+[4.799549] (pcl_processing) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.856612] (-) TimerEvent: {}
+[4.935511] (pcl_processing) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.956850] (-) TimerEvent: {}
+[5.057881] (-) TimerEvent: {}
+[5.159050] (-) TimerEvent: {}
+[5.260120] (-) TimerEvent: {}
+[5.310863] (pcl_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.360377] (-) TimerEvent: {}
+[5.461407] (-) TimerEvent: {}
+[5.562654] (-) TimerEvent: {}
+[5.581137] (pcl_processing) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.588063] (pcl_processing) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.592278] (pcl_processing) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.662911] (-) TimerEvent: {}
+[5.764162] (-) TimerEvent: {}
+[5.865166] (-) TimerEvent: {}
+[5.966234] (-) TimerEvent: {}
+[6.049032] (pcl_processing) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.050649] (pcl_processing) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.066387] (-) TimerEvent: {}
+[6.167445] (-) TimerEvent: {}
+[6.268380] (-) TimerEvent: {}
+[6.369363] (-) TimerEvent: {}
+[6.470285] (-) TimerEvent: {}
+[6.514472] (pcl_processing) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[6.516176] (pcl_processing) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[6.570503] (-) TimerEvent: {}
+[6.671569] (-) TimerEvent: {}
+[6.772525] (-) TimerEvent: {}
+[6.873720] (-) TimerEvent: {}
+[6.899522] (pcl_processing) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[6.901011] (pcl_processing) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[6.973934] (-) TimerEvent: {}
+[7.075130] (-) TimerEvent: {}
+[7.176306] (-) TimerEvent: {}
+[7.277379] (-) TimerEvent: {}
+[7.326130] (pcl_processing) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[7.334077] (pcl_processing) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.377612] (-) TimerEvent: {}
+[7.478652] (-) TimerEvent: {}
+[7.579717] (-) TimerEvent: {}
+[7.680703] (-) TimerEvent: {}
+[7.781630] (-) TimerEvent: {}
+[7.883042] (-) TimerEvent: {}
+[7.984096] (-) TimerEvent: {}
+[8.041968] (pcl_processing) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[8.084333] (-) TimerEvent: {}
+[8.185235] (-) TimerEvent: {}
+[8.286201] (-) TimerEvent: {}
+[8.387253] (-) TimerEvent: {}
+[8.488133] (-) TimerEvent: {}
+[8.589053] (-) TimerEvent: {}
+[8.689966] (-) TimerEvent: {}
+[8.791098] (-) TimerEvent: {}
+[8.892078] (-) TimerEvent: {}
+[8.993145] (-) TimerEvent: {}
+[9.094216] (-) TimerEvent: {}
+[9.195291] (-) TimerEvent: {}
+[9.296336] (-) TimerEvent: {}
+[9.370090] (pcl_processing) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[9.396596] (-) TimerEvent: {}
+[9.469461] (pcl_processing) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[9.496855] (-) TimerEvent: {}
+[9.597911] (-) TimerEvent: {}
+[9.699193] (-) TimerEvent: {}
+[9.726319] (pcl_processing) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[9.727769] (pcl_processing) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[9.799399] (-) TimerEvent: {}
+[9.900523] (-) TimerEvent: {}
+[9.936761] (pcl_processing) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[10.000752] (-) TimerEvent: {}
+[10.011576] (pcl_processing) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[10.100990] (-) TimerEvent: {}
+[10.110524] (pcl_processing) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[10.201259] (-) TimerEvent: {}
+[10.302335] (-) TimerEvent: {}
+[10.387130] (pcl_processing) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  \n'}
+[10.402586] (-) TimerEvent: {}
+[10.503860] (-) TimerEvent: {}
+[10.604920] (-) TimerEvent: {}
+[10.706006] (-) TimerEvent: {}
+[10.725866] (pcl_processing) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[10.726586] (pcl_processing) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[10.727155] (pcl_processing) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[10.727709] (pcl_processing) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[10.728112] (pcl_processing) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[10.728626] (pcl_processing) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[10.729022] (pcl_processing) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[10.729429] (pcl_processing) StdoutLine: {'line': b'but not all the files it references.\n'}
+[10.729902] (pcl_processing) StdoutLine: {'line': b'\n'}
+[10.732421] (pcl_processing) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[10.733075] (pcl_processing) StdoutLine: {'line': b'   "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[10.733522] (pcl_processing) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[10.733921] (pcl_processing) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[10.734377] (pcl_processing) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[10.734769] (pcl_processing) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[10.735288] (pcl_processing) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[10.735745] (pcl_processing) StdoutLine: {'line': b'but not all the files it references.\n'}
+[10.736152] (pcl_processing) StdoutLine: {'line': b'\n'}
+[10.737409] (pcl_processing) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[10.737867] (pcl_processing) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[10.738325] (pcl_processing) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[10.738746] (pcl_processing) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[10.739263] (pcl_processing) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[10.739722] (pcl_processing) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[10.740125] (pcl_processing) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[10.740506] (pcl_processing) StdoutLine: {'line': b'but not all the files it references.\n'}
+[10.740976] (pcl_processing) StdoutLine: {'line': b'\n'}
+[10.741366] (pcl_processing) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[10.741763] (pcl_processing) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[10.742205] (pcl_processing) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[10.742592] (pcl_processing) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[10.743090] (pcl_processing) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[10.743557] (pcl_processing) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[10.743934] (pcl_processing) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[10.744375] (pcl_processing) StdoutLine: {'line': b'but not all the files it references.\n'}
+[10.744769] (pcl_processing) StdoutLine: {'line': b'\n'}
+[10.806311] (-) TimerEvent: {}
+[10.847688] (pcl_processing) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[10.906582] (-) TimerEvent: {}
+[10.948044] (pcl_processing) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.23\n'}
+[11.006892] (-) TimerEvent: {}
+[11.108872] (-) TimerEvent: {}
+[11.210104] (-) TimerEvent: {}
+[11.218545] (pcl_processing) StdoutLine: {'line': b'-- Found USB_10: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  \n'}
+[11.310347] (-) TimerEvent: {}
+[11.411458] (-) TimerEvent: {}
+[11.512610] (-) TimerEvent: {}
+[11.587822] (pcl_processing) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so  \n'}
+[11.588978] (pcl_processing) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[11.612843] (-) TimerEvent: {}
+[11.713843] (-) TimerEvent: {}
+[11.814788] (-) TimerEvent: {}
+[11.916751] (-) TimerEvent: {}
+[11.995386] (pcl_processing) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/libOpenNI2.so  \n'}
+[11.996406] (pcl_processing) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[11.997288] (pcl_processing) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[11.998192] (pcl_processing) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[12.016941] (-) TimerEvent: {}
+[12.071528] (pcl_processing) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[12.072575] (pcl_processing) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[12.105683] (pcl_processing) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[12.117127] (-) TimerEvent: {}
+[12.139777] (pcl_processing) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[12.217419] (-) TimerEvent: {}
+[12.279228] (pcl_processing) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  \n'}
+[12.280161] (pcl_processing) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)\n'}
+[12.313600] (pcl_processing) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[12.317550] (-) TimerEvent: {}
+[12.382211] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[12.388585] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  \n'}
+[12.390011] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[12.394385] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  \n'}
+[12.395701] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[12.399749] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  \n'}
+[12.400855] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[12.405127] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  \n'}
+[12.406329] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[12.410191] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[12.411580] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[12.415459] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  \n'}
+[12.416976] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[12.417692] (-) TimerEvent: {}
+[12.418330] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[12.419386] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[12.420686] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[12.421495] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[12.425634] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  \n'}
+[12.427332] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[12.431905] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  \n'}
+[12.433451] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[12.438218] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  \n'}
+[12.439346] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[12.443559] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  \n'}
+[12.445412] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[12.449748] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  \n'}
+[12.451698] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[12.455992] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  \n'}
+[12.457697] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[12.462506] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  \n'}
+[12.464357] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[12.468628] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  \n'}
+[12.470369] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[12.474544] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  \n'}
+[12.476197] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[12.480276] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  \n'}
+[12.482329] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[12.486512] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  \n'}
+[12.487985] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[12.492577] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  \n'}
+[12.496306] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[12.497845] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[12.498728] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[12.501074] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[12.501796] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[12.506464] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  \n'}
+[12.508117] (pcl_processing) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[12.512346] (pcl_processing) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  \n'}
+[12.517775] (pcl_processing) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/aarch64-linux-gnu/libboost_system.so;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so;optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/aarch64-linux-gnu/libfreetype.so;/usr/lib/aarch64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/aarch64-linux-gnu/libjpeg.so;/usr/lib/aarch64-linux-gnu/libpng.so;/usr/lib/aarch64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/aarch64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  \n'}
+[12.518620] (-) TimerEvent: {}
+[12.523173] (pcl_processing) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[12.523803] (pcl_processing) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'pcl_convensions' was\n"}
+[12.524197] (pcl_processing) StderrLine: {'line': b'  not found before\n'}
+[12.524552] (pcl_processing) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[12.524940] (pcl_processing) StderrLine: {'line': b'  CMakeLists.txt:28 (ament_target_dependencies)\n'}
+[12.525359] (pcl_processing) StderrLine: {'line': b'\n'}
+[12.525706] (pcl_processing) StderrLine: {'line': b'\n'}
+[12.541531] (pcl_processing) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[12.542161] (pcl_processing) StdoutLine: {'line': b'See also "/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing/CMakeFiles/CMakeOutput.log".\n'}
+[12.542612] (pcl_processing) StdoutLine: {'line': b'See also "/home/asl-bird/catkin_ws/src/pcl_processing/build/pcl_processing/CMakeFiles/CMakeError.log".\n'}
+[12.605359] (pcl_processing) CommandEnded: {'returncode': 1}
+[12.620057] (-) TimerEvent: {}
+[12.725482] (-) TimerEvent: {}
+[12.788741] (pcl_processing) JobEnded: {'identifier': 'pcl_processing', 'rc': 1}
+[12.800885] (-) EventReactorShutdown: {}
