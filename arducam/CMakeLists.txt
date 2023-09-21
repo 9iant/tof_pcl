@@ -19,9 +19,11 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
 
 include_directories(
-  # /usr/include/cpp
+  #/usr/include/cpp
   $ENV{ARDUCAM_HEARD_PATH}
   ${PCL_INCLUDE_DIRS}
   ${ament_INCLUDE_DIRS}
@@ -32,10 +34,29 @@ add_definitions(${PCL_DEFINITIONS})
 add_executable(tof_pointcloud src/tof_pointcloud.cpp)
 ament_target_dependencies(tof_pointcloud rclcpp std_msgs sensor_msgs
 )
+
+add_executable(tof_image src/tof_image.cpp)
+ament_target_dependencies(tof_image rclcpp std_msgs sensor_msgs
+)
+add_executable(tof_image_only src/tof_image.cpp)
+ament_target_dependencies(tof_image_only rclcpp std_msgs sensor_msgs
+)
+
 target_link_libraries(tof_pointcloud  ArducamDepthCamera ${PCL_LIBRARY}
+)
+target_link_libraries(tof_image  ArducamDepthCamera ${PCL_LIBRARY}
+)
+target_link_libraries(tof_image_only  ArducamDepthCamera ${PCL_LIBRARY}
 )
 install(TARGETS
 tof_pointcloud
+  DESTINATION lib/${PROJECT_NAME})
+install(TARGETS
+tof_image
+  DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS
+tof_image_only
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

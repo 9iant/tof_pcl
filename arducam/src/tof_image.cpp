@@ -9,6 +9,8 @@
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_types.h>
 #include <sensor_msgs/point_cloud2_iterator.hpp>
+// #include "std_msgs/msg/float32_multi_array.hpp"
+#include <sensor_msgs/msg/image.hpp>
 
 #include "ArducamTOFCamera.hpp"
 
@@ -34,9 +36,18 @@ public:
         depth_msg_->layout.dim[1].label = "width";
         depth_msg_->layout.dim[1].size = 240;
         depth_msg_->layout.dim[1].stride = 240;
+        //
+        image_msg_ = std::make_shared<sensor_msgs::msg::Image>();
+        image_msg_->encoding = "32FC1";
+        image_msg_->width = 240;
+        image_msg_->height = 180;
+        image_msg_->step = image_msg_->width * sizeof(float);
+
         publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("point_cloud2", 10);
         publisher_depth_ = this->create_publisher<std_msgs::msg::Float32MultiArray>("depth_frame", 10);
-        timer_ = this->create_wall_timer(5e0ms, std::bind(&TOFPublisher::update, this));
+        publisher_image_ = this->create_publisher<sensor_msgs::msg::Image>("converted_depth_image", 10);
+
+        timer_ = this->create_wall_timer(50ms, std::bind(&TOFPublisher::update, this));
     }
 
 private:
@@ -78,6 +89,9 @@ private:
         pc2_msg_->header.frame_id = frame_id_;
 
         depth_msg_->data = depth_frame;
+        // Create the Image message
+        image_msg_->data.resize(depth_frame.size() * sizeof(float));
+        memcpy(image_msg_->data.data(), depth_frame.data(), depth_frame.size() * sizeof(float));
     }
     void update()
     {
@@ -85,15 +99,22 @@ private:
         pc2_msg_->header.stamp = now();
         publisher_->publish(*pc2_msg_);
         publisher_depth_->publish(*depth_msg_);
+
+        // Set the header of the image message and publish it
+        image_msg_->header.stamp = now();
+        image_msg_->header.frame_id = frame_id_;
+        publisher_image_->publish(*image_msg_);
     }
     std::string frame_id_ = "map";
     std::vector<float> depth_frame;
     sensor_msgs::msg::PointCloud2::SharedPtr pc2_msg_;
+    sensor_msgs::msg::Image::SharedPtr image_msg_;
     std_msgs::msg::Float32MultiArray::SharedPtr depth_msg_;
     size_t pointsize_;
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr publisher_;
     rclcpp::Publisher<std_msgs::msg::Float32MultiArray>::SharedPtr publisher_depth_;
+    rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr publisher_image_;
 
     float fx = 240 / (2 * tan(0.5 * M_PI * 64.3 / 180));
     float fy = 180 / (2 * tan(0.5 * M_PI * 50.4 / 180));
